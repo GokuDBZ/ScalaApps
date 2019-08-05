@@ -1,0 +1,29 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/suraj/IdeaProjects/SacalaApps/src/main/constructs.scala:163:15: ambiguous reference to overloaded definition,[0m
+[0m[[0m[31merror[0m] [0m[0mboth constructor AuxiliaryCons in class AuxiliaryCons of type (name: String, age: Int)AuxiliaryCons[0m
+[0m[[0m[31merror[0m] [0m[0mand  constructor AuxiliaryCons in class AuxiliaryCons of type (name: String, age: Int)AuxiliaryCons[0m
+[0m[[0m[31merror[0m] [0m[0mmatch argument types (String,Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    val ob1 = new AuxiliaryCons("suraj", 25)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suraj/IdeaProjects/SacalaApps/src/main/constructs.scala:752:5: ambiguous reference to overloaded definition,[0m
+[0m[[0m[31merror[0m] [0m[0mboth constructor AuxiliaryCons in class AuxiliaryCons of type (name: String, age: Int)AuxiliaryCons[0m
+[0m[[0m[31merror[0m] [0m[0mand  constructor AuxiliaryCons in class AuxiliaryCons of type (name: String, age: Int)AuxiliaryCons[0m
+[0m[[0m[31merror[0m] [0m[0mmatch argument types (String,Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    this("suraj",1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suraj/IdeaProjects/SacalaApps/src/main/constructs.scala:755:5: ambiguous reference to overloaded definition,[0m
+[0m[[0m[31merror[0m] [0m[0mboth constructor AuxiliaryCons in class AuxiliaryCons of type (name: String, age: Int)AuxiliaryCons[0m
+[0m[[0m[31merror[0m] [0m[0mand  constructor AuxiliaryCons in class AuxiliaryCons of type (name: String, age: Int)AuxiliaryCons[0m
+[0m[[0m[31merror[0m] [0m[0mmatch argument types (String,Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    this(name,age);[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suraj/IdeaProjects/SacalaApps/src/main/constructs.scala:759:5: ambiguous reference to overloaded definition,[0m
+[0m[[0m[31merror[0m] [0m[0mboth constructor AuxiliaryCons in class AuxiliaryCons of type (name: String, age: Int)AuxiliaryCons[0m
+[0m[[0m[31merror[0m] [0m[0mand  constructor AuxiliaryCons in class AuxiliaryCons of type (name: String, age: Int)AuxiliaryCons[0m
+[0m[[0m[31merror[0m] [0m[0mmatch argument types (String,Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    this(name, 2)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suraj/IdeaProjects/SacalaApps/src/main/constructs.scala:754:7: constructor AuxiliaryCons is defined twice;[0m
+[0m[[0m[31merror[0m] [0m[0m  the conflicting constructor AuxiliaryCons was defined at line 749:20[0m
+[0m[[0m[31merror[0m] [0m[0m  def this(name:String, age:Int){[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
