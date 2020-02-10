@@ -1,6 +1,6 @@
 object HelloWorld {
 
-  def main(args: Array[String]) {
+  def main(args: Array[String]):Unit =  {
     println("hello world");
     val name = "suraj";
     val age = 25;
