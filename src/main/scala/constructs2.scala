@@ -55,6 +55,7 @@ object Constructs {
        - while must have a side-effect to do something useful
        - In Scala there is no void.
        - Unit is provided as a return type for statements, it has one instance: ()
+       - Unit is provided as a retunr type for statements, it has one instance: ()
        -  while(predicate) predicate is condition
      */
 
@@ -529,5 +530,6 @@ object MatchExpressions{
     }
   }
 }
+
 
 

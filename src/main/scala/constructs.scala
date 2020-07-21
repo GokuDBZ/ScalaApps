@@ -27,7 +27,7 @@ object HelloWorld {
     var value1 = 1;
     var value = 2;
 
-    val higher = if(1>2) "1>2" else if(2>1) "hello"else "1 < 2";
+    val higher = if(1>2) "1>2" else "1 < 2";
     println(higher)
     println(if(1>2) "1>2" else "1 < 2")
     println("factorial of 3 is "+factorial(3));
@@ -399,7 +399,7 @@ object Closures{
   }
 
   // what if we reinitalize number
-  // value of number can changed on basis of its scope
+  // value f number can changed on basis of its scope
   // return type of anonymous function is Int i.e (Int){number += x}
   val sum2 = (x:Int) => { number+=x}
 
@@ -494,8 +494,8 @@ object Lists {
     var r1 = 0::1::Nil;
 
     // Both r and r1 becomes a list.
-    for(a <- r) { println(a); }
-    for(a <- r1) { println(a); }
+    for(a <- r){ println(a); }
+    for(a <- r1){ println(a); }
 
     println(r.head);
     // tails is what is left after removing first element, it returns a nee list after removing first element
