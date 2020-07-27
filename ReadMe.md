@@ -39,8 +39,8 @@ Below is the sequence which we need to follow :-
    2.14 testing_in_scala 
 
    2.13 test/scala
-        2.13.1 Testing with FunSpec
+      2.13.1 Testing with FunSpec
 
-        2.13.2 Testing with SuiteSpec 
+      2.13.2 Testing with SuiteSpec 
 
     
