@@ -180,9 +180,9 @@ object PartiallyAppliedFunctions {
   {
     val sum = (a:Int, b:Int, c:Int) => a +b +c
 
-    val sum1 = sum(1,2,_) // or sum(1,2,(_:Int))
+    val sum1 =  sum(1,2,(_:Int)) // or sum(1,2,_)
 
-    val sum2 = sum(1,_,3) // or sum(1,(_:Int),3)
+    val sum2 = sum(1,(_:Int),3) // sum(1,_,3) // or 
 
     println(sum1(3))
     println(sum2(3))
@@ -195,13 +195,13 @@ object PartiallyAppliedFunctions {
     // val allThree = sum _ just pass single place holder that will handlee all three params, but it should be without paranthesis
     // val allThree = sum(_) won't work
 
-    val allThree1 = allThree(1,_,_) // here we pass only one params to allThree and return reference to allThree1
+    // val allThree1 = allThree(1,_,_) // here we pass only one params to allThree and return reference to allThree1
 
-    val allThree2 = allThree1(2,_) // since allThree1 has 1 parameter with it now we need to work on two remaining params
+    // val allThree2 = allThree1(2,_) // since allThree1 has 1 parameter with it now we need to work on two remaining params
 
-    val allThree3 = allThree2(4) // allThree2 has now two params with it and now we need to deal with only 1 params
+    // val allThree3 = allThree2(4) // allThree2 has now two params with it and now we need to deal with only 1 params
 
-    println(allThree3)
+    //println(allThree3)
 
   }
 }

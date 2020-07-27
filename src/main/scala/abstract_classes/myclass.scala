@@ -2,7 +2,6 @@
 
     def main(args:Array[String]):Unit={
 
-      // Anything in a class without access specifier is public
       var a1:A1 = new A1;
       var a2:A2 = new A2("suraj");
 

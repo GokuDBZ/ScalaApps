@@ -72,5 +72,5 @@ object Trait {
 
     class ActualCar(val color:String, val name:String) extends Car3   // since Car3 has 1 defined method that will behave as 
     //  this class definition is re written as class AcutalCar extends AnyRef with trait
-    // only trait can go afterwards with `with` 
+    // only trait can go afterwards with `with ` 
 }

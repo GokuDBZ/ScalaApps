@@ -46,7 +46,6 @@ object TypeCasting {
       }
       
        val r6 = if(flag) "hello" else fail("wow")
-       r6
         // so its return type will be String as String falls first than Nothing in heirarchy
 
       //********************

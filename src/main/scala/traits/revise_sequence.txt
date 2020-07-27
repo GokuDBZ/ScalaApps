@@ -1,0 +1,15 @@
+1- basic_traits.scala
+
+1- trait_inheritence.scala
+
+2- trait_inheritence_2.scala
+
+3- trait_inheritence_3.scala
+
+4- trait_vs_classes.scala
+
+5-  override_abstract.scala
+
+6- trait_parametric_type.scala
+
+7- self-less-traits.scala
